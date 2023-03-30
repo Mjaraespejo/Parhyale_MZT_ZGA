@@ -1,6 +1,7 @@
-#/drives/raid/AboobakerLab/manuel/data_phaw_analysis/asm_gap_filling/TGS-GapCloser_anlysis/sambaAsm_analysis/phaw_sambaAsm.scaff_seqs
+# After running Samba and TGSGpaCloser, the output: /drives/raid/AboobakerLab/manuel/data_phaw_analysis/asm_gap_filling/TGS-GapCloser_anlysis/sambaAsm_analysis/phaw_sambaAsm.scaff_seqs contained special characters.
+# I used this script to edit those names and generate the final assembly ouput Phaw5.1
 
-#SCript to edit scaffolds names after gapFilling + Samba scaffolding
+```ruby
 
 count=1
 
@@ -13,3 +14,5 @@ File.open("phaw_sambaAsm.scaff_seqs.tbl","r").each do |line|
         puts line#.split("\t")[0]
     end
 end
+
+```
