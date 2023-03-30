@@ -6,6 +6,6 @@
 -q /drives/raid/AboobakerLab/manuel/data_phaw_analysis/asm_gap_filling/TGS-GapCloser_anlysis/m64164_211030_095407.hifi.subreads.fa \
 -t 30 -d asm -m 5000 -o 1000 -a 
 
-#outout: parhyale_hawaiensis_15Feb20182_1IWOV.fa.scaffolds.fa
+#output: parhyale_hawaiensis_15Feb20182_1IWOV.fa.scaffolds.fa
 
 
