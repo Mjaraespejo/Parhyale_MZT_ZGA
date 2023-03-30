@@ -1,5 +1,5 @@
 # After running Samba and TGSGpaCloser, the output: /drives/raid/AboobakerLab/manuel/data_phaw_analysis/asm_gap_filling/TGS-GapCloser_anlysis/sambaAsm_analysis/phaw_sambaAsm.scaff_seqs contained special characters.
-# I used this script to edit those names and generate the final assembly ouput Phaw5.1
+# I used this ruby script to edit those names and generate the final assembly ouput Phaw5.1
 
 
 count=1
@@ -14,3 +14,4 @@ File.open("phaw_sambaAsm.scaff_seqs.tbl","r").each do |line|
     end
 end
 
+#Output: /drives/ssd1/manuel/phaw/2022_analysis/phaw_gapfilling/TGS-GapCloser_anlysis/results_sambaAsm/change_scafNames/phaw_sambaAsm.scaff_seqs_editedScafNames.fa, which depicted Phaw5.1 assembly used in downstream analyses
