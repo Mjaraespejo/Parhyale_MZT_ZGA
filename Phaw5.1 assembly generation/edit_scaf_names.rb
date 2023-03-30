@@ -2,7 +2,6 @@
 # I used this script to edit those names and generate the final assembly ouput Phaw5.1
 
 ```ruby
-
 count=1
 
 File.open("phaw_sambaAsm.scaff_seqs.tbl","r").each do |line|
@@ -14,5 +13,4 @@ File.open("phaw_sambaAsm.scaff_seqs.tbl","r").each do |line|
         puts line#.split("\t")[0]
     end
 end
-
 ```
