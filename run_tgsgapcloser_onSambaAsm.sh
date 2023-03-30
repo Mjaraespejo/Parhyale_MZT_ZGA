@@ -1,7 +1,5 @@
 #!/bin/bash
-
-#This command run without error correction. I used racon error correction previously  and did not get any gap filled :(
-#It uses local TGS-GapCloser, which allows to use minimap argument
+# Phaw 5.0 = parhyale_hawaiensis_15Feb20182_1IWOV.fa.scaffolds.fa
 
 /drives/raid/AboobakerLab/software/TGS-GapCloser/TGS-GapCloser.sh \
 --scaff  /drives/ssd1/manuel/phaw/2022_analysis/asm_SAMBA_analysis/parhyale_hawaiensis_15Feb20182_1IWOV.fa.scaffolds.fa \
