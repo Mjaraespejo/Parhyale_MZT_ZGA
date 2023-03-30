@@ -1,5 +1,6 @@
 #!/bin/bash
 # Phaw 5.0 = parhyale_hawaiensis_15Feb20182_1IWOV.fa.scaffolds.fa
+# PacBio HiFi reads = TGS-GapCloser_anlysis/m64164_211030_095407.hifi.subreads.fa
 
 /drives/raid/AboobakerLab/software/TGS-GapCloser/TGS-GapCloser.sh \
 --scaff  /drives/ssd1/manuel/phaw/2022_analysis/asm_SAMBA_analysis/parhyale_hawaiensis_15Feb20182_1IWOV.fa.scaffolds.fa \
