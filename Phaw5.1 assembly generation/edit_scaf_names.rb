@@ -1,6 +1,7 @@
 # After running Samba and TGSGpaCloser, the output: /drives/raid/AboobakerLab/manuel/data_phaw_analysis/asm_gap_filling/TGS-GapCloser_anlysis/sambaAsm_analysis/phaw_sambaAsm.scaff_seqs contained special characters.
 # I used this ruby script to edit those names and generate the final assembly ouput Phaw5.1
 
+##Before running the code below, convert gap-filled genome fasta file into tab-delimited file using: /drives/ssd1/manuel/FastaToTbl.sh phaw_sambaAsm.scaff_seqs > phaw_sambaAsm.scaff_seqs.tb
 
 count=1
 
