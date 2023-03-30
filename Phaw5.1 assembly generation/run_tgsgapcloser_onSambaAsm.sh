@@ -13,4 +13,5 @@
 --thread 20 \
 --tgstype pb 
 
-
+#Ouput: phaw_sambaAsm.scaff_seqs
+#The ouput file contained special characters in the scaffolds names, so I had to edit the those.
